@@ -1,0 +1,23 @@
+version: 2
+
+models:
+
+  - name: fct_orders_incremental
+
+    description: "Retail customer order transactions"
+
+    columns:
+
+      - name: ORDER_ID
+
+        description: "Unique identifier for each order"
+
+        data_tests:
+
+          - not_null
+
+          - unique
+
+
+
+
