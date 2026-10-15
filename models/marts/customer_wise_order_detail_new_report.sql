@@ -23,4 +23,4 @@ left join {{ ref("dim_date") }} d on o.order_date = d.full_date
 left join {{ ref("dim_customer") }} c on o.customer_id = c.customer_id
 
 order by o.order_id, customer_id asc
-;
+
