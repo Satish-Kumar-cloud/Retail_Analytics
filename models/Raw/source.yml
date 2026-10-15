@@ -1,6 +1,7 @@
 version: 2
 
 sources:
+
   - name: raw
 
     database: RETAIL_DB
@@ -8,6 +9,7 @@ sources:
     schema: RAW
 
     tables:
+
       - name: CUSTOMERS
 
       - name: PRODUCTS
